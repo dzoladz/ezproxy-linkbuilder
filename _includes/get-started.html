@@ -1,0 +1,43 @@
+<!-- Get Started Section -->
+<section id="get-started">
+	<span id="proxy-prefix">{{ site.ezproxy-prefix }}</span>
+	<div class="container">
+
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h2>Get Started</h2>
+				<hr class="star-primary">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-10 col-lg-offset-1">
+				<div class="form-group">
+					<label for="org_link">Enter link and press Process</label>
+					<input type="text" name="org_link" class="form-control" placeholder="Original Link" id="org_link" required data-validation-required-message="Please enter a link">
+					<p class="help-block text-danger"></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-10 col-lg-offset-1">
+				<div class="form-group">
+					<button id="process-action" type="submit" class="btn btn-success btn-lg">Process</button>
+					<button id="clear-action" type="submit" class="btn btn-clear btn-lg">Clear</button>
+				</div>
+			</div>
+		</div>
+
+		<div id="success" class="row">
+			<div class="col-lg-10 col-lg-offset-1">
+				<div class="form-group">
+					<label for="result_link">Success! Results copied to clipboard.</label>
+					<input type="text" name="result_link" class="form-control" placeholder="Result Link" id="result_link" required data-validation-required-message="Please enter a link">
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+</section>

@@ -1,0 +1,70 @@
+# ------------------------------------------------------------------
+# Site settings
+# ------------------------------------------------------------------
+title: Proxy Link Builder
+email: derek@derekzoladz.com
+url: https://github.com/dzoladz
+description: "Simple tool for prepending an EZproxy prefix to a URL"
+keywords: "ezproxy, ohionet, javascript, github"
+meta_author: Derek Zoladz
+favicon: https://oplin.ohio.gov/sites/default/files/favicon_2.ico
+
+# ------------------------------------------------------------------
+# Twitter Card & Open Graph Data
+# ------------------------------------------------------------------
+institution-twitter-handle:
+deploy-url: https://dzoladz.github.io/ezproxy-linkbuilder
+
+# ------------------------------------------------------------------
+# Build settings, you probably don't need to touch these
+# ------------------------------------------------------------------
+markdown: kramdown
+permalink: pretty
+
+# ------------------------------------------------------------------
+# Webmaster tools
+# ------------------------------------------------------------------
+# Google
+google_verify:
+
+# Bing
+bing_verify:
+
+# ------------------------------------------------------------------
+# Color settings (hex-codes, without the leading hash-tag)
+# ------------------------------------------------------------------
+color:
+  primary: 004b87
+  primary-rgb: "0,75,135"
+  secondary: 004983
+  secondary-dark: 004983
+  links: 83a846
+
+# ------------------------------------------------------------------
+# Site Customizations & Proxy Prefix
+# ------------------------------------------------------------------
+call-out: "helps you create remote access links for library resources that can be used in online courses, reading lists, email messages, bibliographies, and more!"
+ezproxy-prefix: 'https://login.ezproxy.example.com/login?url='
+
+# ------------------------------------------------------------------
+# Footer settings
+# ------------------------------------------------------------------
+footer:
+  copyright: Derek C. Zoladz
+  location: Location
+  social: Around the Web
+  credits: Credits
+
+# Social networks
+social:
+  - title: heart
+    url: https://fosstodon.org/derekz
+  - title: facebook
+    url: https://www.facebook.com/derekcraigzoladz
+  - title: github
+    url: https://github.com/dzoladz
+
+# Postal address (add lines as necessary)
+address:
+  - line: 2323 West Lane Avenue
+  - line: Columbus, Ohio 43204
